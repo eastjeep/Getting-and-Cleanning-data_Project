@@ -53,7 +53,7 @@ for (j in 1:length(var_desc)) {
 	names(new_data2)[j] <- var_desc[j]
 }
 
-len <- length(names(new_data2))
+
 ##5. 
 new_data3 <- split(new_data2,list(new_data2$act,new_data2$subject))
 
